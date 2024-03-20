@@ -1,6 +1,7 @@
 # Desafio do aumento de 15% do salário
 
-n1 = float(input('digite o salário:'))
-aum = (n1*15)/100 + n1
+salario = float(input('digite o salário:'))
 
-print(f'Com o aumento de 15%, seu salário ficou R${aum}.')
+novo = salario + (salario * 15 / 100)
+
+print(f'Com o aumento de 15%, seu salário ficou R${novo}.')
