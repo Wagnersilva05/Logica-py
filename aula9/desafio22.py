@@ -1,0 +1,5 @@
+nome = input("Digite seu nome completo: ").strip()
+print(f"Nome maiusculo: {nome.upper()}")
+print(f"Nome minusculo: {nome.lower()}")
+print(f"Quantidade de letras: {len(nome) - nome.count(' ')}")
+print(f"Quantidade de letras do primeiro nome: {nome.find(' ')}")
